@@ -56,15 +56,39 @@
 		24BE133C20116C0100E69C5F /* AYScanner */ = {
 			isa = PBXGroup;
 			children = (
-				24BE133D20116C0100E69C5F /* AppDelegate.swift */,
-				24BE133F20116C0100E69C5F /* AYScannerViewController.swift */,
-				24BE134F20116D9500E69C5F /* AYScanCodeViewController.swift */,
-				24BE134120116C0100E69C5F /* Main.storyboard */,
+				24BE13532011787900E69C5F /* AppDelegate */,
+				24BE13512011785D00E69C5F /* Controller */,
+				24BE13522011786D00E69C5F /* Launch UI */,
 				24BE134420116C0100E69C5F /* Assets.xcassets */,
-				24BE134620116C0100E69C5F /* LaunchScreen.storyboard */,
 				24BE134920116C0100E69C5F /* Info.plist */,
 			);
 			path = AYScanner;
+			sourceTree = "<group>";
+		};
+		24BE13512011785D00E69C5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24BE133F20116C0100E69C5F /* AYScannerViewController.swift */,
+				24BE134F20116D9500E69C5F /* AYScanCodeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24BE13522011786D00E69C5F /* Launch UI */ = {
+			isa = PBXGroup;
+			children = (
+				24BE134120116C0100E69C5F /* Main.storyboard */,
+				24BE134620116C0100E69C5F /* LaunchScreen.storyboard */,
+			);
+			path = "Launch UI";
+			sourceTree = "<group>";
+		};
+		24BE13532011787900E69C5F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				24BE133D20116C0100E69C5F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
